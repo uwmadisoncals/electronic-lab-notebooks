@@ -36,6 +36,7 @@ jQuery (document ).ready(function($){
 		$(".mobileTrigger").show();
 		$(".logoImage").addClass("mobileMenuOn");
 		$("#access").css("visibility","hidden").css("position", "absolute");
+		 $(".logoImage").css("height","60px");
 		subMobileMenu();
 	 } else {
 	 
@@ -50,6 +51,7 @@ jQuery (document ).ready(function($){
 			 $(".mobileTrigger").show();
 			 $(".logoImage").addClass("mobileMenuOn");
 			 $("#access").css("visibility","hidden").css("position", "absolute");
+			 $(".logoImage").css("height","60px");
 			 subMobileMenu();
 		 } else {
 			 if(totalWidth == 0) {
@@ -63,20 +65,22 @@ jQuery (document ).ready(function($){
 				 $(".mobileTrigger").show();
 				 $(".logoImage").addClass("mobileMenuOn");
 				 $("#access").css("visibility","hidden").css("position", "absolute");
+				 $(".logoImage").css("height","60px");
 				 subMobileMenu();
 			 } else {
 				 //console.log("switch to full");		
 				 $(".navcornerleft").css("visibility","visible");
 				 $(".navcornerright").css("visibility","visible");
-				// $(".collegeFeature, .collegeFeature2").css("width","92.4%");
+				 //$(".collegeFeature, .collegeFeature2").css("width","92.4%");
 				 //$("footer .inner").css("width","95%");
-				 $(".blog .inner").css("width","97.6%");
+				 //$(".blog .inner").css("width","97.6%");
 				 //$("#page").css("margin-top", "0");
-				 $(".collegeFeature2").css("margin-top","0");
+				 //$(".collegeFeature2").css("margin-top","0");
 				 //$("#main").css("margin-top", "0");
 				 $(".mobileTrigger").hide();
 				 $(".logoImage").removeClass("mobileMenuOn");
 				 $("#access").css("visibility","visible").css("position", "relative");	
+				 $(".logoImage").css("height","99px");
 
 			 }
 		 }
