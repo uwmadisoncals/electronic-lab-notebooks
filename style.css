@@ -342,6 +342,8 @@ body {
 #page {
 	margin: 0 auto;
 	/*width: 960px;*/
+	overflow:hidden;
+
 }
 
 #page.mobileOff {
