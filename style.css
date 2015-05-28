@@ -146,7 +146,8 @@ footer, header, hgroup, menu, nav, section {
 }
 	
 .mobileMenu	a:hover {
-		background: rgba(255,255,255,0.15);
+		background: rgba(255,255,255,0.15) !important;
+		color:rgba(255,255,255,0.8);
 	}
 
 .mobileMenu.mobileMenuShown {
@@ -229,14 +230,16 @@ footer, header, hgroup, menu, nav, section {
 	width: 50px;
 	height: 40px;
 	
-	/*position: absolute;*/
+	/*position: absolute;
 	top: 16px;
-	left: 16px;
+	left: 16px;*/
 	z-index:5;
 	/*padding-right: 16px;
 	/*border-right: 1px solid rgba(255,255,255,0.3);*/
-
+	position:absolute;
 	
+	padding:1em;
+	padding-top:2em;
 }
 
 .searchBox{
@@ -1346,7 +1349,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', end
 
 #branding #s:focus, #branding #s.notEmpty {
 	background-color: #f9f9f9;
-	width: 196px;
+	width: 136px;
 	border: 1px solid rgba(255,255,255,1);
 }
 
