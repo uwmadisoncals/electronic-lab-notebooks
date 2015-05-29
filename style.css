@@ -1010,6 +1010,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', end
 	width: 13px;
 	height: 13px;
 	background: url("images/navcorner_left.png") no-repeat;
+	/* hides when page is loaded */
+	visibility:hidden;
 }
 
 #branding .navcornerright {
@@ -1020,6 +1022,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', end
 	width: 13px;
 	height: 13px;
 	background: url("images/navcorner_right.png") no-repeat;
+	/* hides when page is loaded */
+	visibility:hidden;
 }
 
 #uwred #branding {
@@ -1108,6 +1112,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', end
 	float: left;
 	margin: 0 auto -1px;
 	width: 100%;
+	visibility:hidden;
+	position:absolute;
 }
 
 #uwred #access {
@@ -8202,6 +8208,7 @@ border-radius: 3px;
 	
 	.loginBox {
 		background: #e9e7db;
+		margin-bottom: 2em
 	}
 	
 	#branding .heading {
